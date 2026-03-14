@@ -194,18 +194,15 @@ The system will continuously generate logs and analyze them in real time.
 ##  Output
 
 ```
-Traffic Analytics
 
-Average Requests: 52
-Max Response Time: 910
-Total Bytes Sent: 185000
+### Log Generator
+![Log Generator](screenshots/log_generator.jpg)
 
-Detected Anomalies
+### Traffic Analytics
+![Analytics](screenshots/analytics_output.jpg)
 
-timestamp               ip           requests
-2026-03-14 22:20:02   192.168.1.9      620
-```
-
+### Anomaly Detection
+![Anomalies](screenshots/anomaly_detection.jpg)
 ---
 
 ## Technologies Used
