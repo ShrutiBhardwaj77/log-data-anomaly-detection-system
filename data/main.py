@@ -7,10 +7,8 @@ def main():
 
     df = detect_anomalies(df)
 
-    print("\nAll Log Data:\n")
-    print(df)
+    print("\nDetected anomalies:\n")
 
-    print("\nDetected Anomalies:\n")
     print(df[df['anomaly'] == -1])
 
 if __name__ == "__main__":
